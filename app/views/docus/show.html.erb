@@ -1,0 +1,10 @@
+<h1><%= @docu.name %></h1>
+
+<%= link_to "view_file", url_for(@docu.document_attached), target: "_blank" %>
+
+<%= link_to "Download", rails_blob_path(@docu.document_attached, disposition: :attachment) %>
+
+<%= link_to "Delete file", docu_path(@docu), data: {
+  turbo_method: :delete,
+  turbo_confirm: "Delete file?"
+} %>

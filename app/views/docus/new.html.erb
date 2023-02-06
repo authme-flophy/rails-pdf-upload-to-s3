@@ -1,0 +1,13 @@
+<%= form_with model: @docu do |form|  %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+  <div>
+    <%= form.label :document_attached %>
+    <%= form.file_field :document_attached %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

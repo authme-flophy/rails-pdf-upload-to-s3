@@ -1,0 +1,11 @@
+<h1>Welcome to trial number II</h1>
+
+<p>This is where i practice uploading pdf files to amazon s3 and retrieving them.</p>
+
+<ul>
+  <% @docus.each do |docu| %>
+    <li><%= link_to docu.name, docu %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Upload new document", new_docu_path %>
