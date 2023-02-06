@@ -8,9 +8,9 @@
 
 ## Tools used:
 
-[x] Web framework - **Rails**
-[x] Database - **Postgresql**
-[x] Amazon s3
+[X] Web framework - **Rails**
+[X] Database - **Postgresql**
+[X] Amazon s3
 
 ## Live link
 
